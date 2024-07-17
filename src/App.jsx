@@ -5,6 +5,7 @@ import ComponentJs from "./componentes/ComponentJs"
 import ComponentAdicionales from "./componentes/ComponentAdicionales"
 import ComponentDependencias from "./componentes/ComponentDependencias"
 import Pruebas from './componentes/Pruebas'
+import ComponentReact from './componentes/ComponentReact'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path='/Recursos-js' element={<ComponentJs />}/>
           <Route exact path='/Recursos-adicionales' element={<ComponentAdicionales />}/>
           <Route exact path='/Recursos-dependencias' element={<ComponentDependencias />}/>
+          <Route exact path='/Recursos-react' element={<ComponentReact />}/>
           <Route exact path='/pruebas' element={<Pruebas />}/>
         </Routes>
       </BrowserRouter>
